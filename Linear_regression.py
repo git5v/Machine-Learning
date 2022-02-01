@@ -20,7 +20,7 @@ data.shape
 data.head()
 
 #Dropping the unnecessary columns
-data.drop(columns=['Species', 'Length1','Length2','Length3','Height'], inplace = True)\
+data.drop(columns=['Species', 'Length1','Length2','Length3','Height'], inplace = True)
 
 data.head()
 
